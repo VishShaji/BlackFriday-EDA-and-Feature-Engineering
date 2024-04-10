@@ -27,3 +27,18 @@ The dataset has the following columns:
 - Product_Category_2 (17 unique values): This column represents the second level of product categorization, likely more specific than the first level. There are 17 distinct sub-categories.
 - Product_Category_3 (15 unique values): This column represents an even more granular third level of product categorization. There are 15 sub-sub-categories present.
 - Purchase (18105 value): This column is our target variable indicating the purchase amount of each Black Friday purchase.
+
+# Data Preprocessing
+
+# Exploratory Data Analysis (EDA)
+
+# Modeling Approach
+
+# Code Walkthrough
+
+# Model Evaluation
+
+# Results and Interpretation
+
+# Next Steps (Optional)
+
