@@ -2,7 +2,7 @@
 
 A retail company “ABC Private Limited” wants to understand the customer purchase behavior (specifically, purchase amount) against various products of different categories. They have shared purchase summary of various customers for selected high-volume products from last month. The data set also contains customer demographics (age, gender, marital status, city_type, stay_in_current_city), product details (product_id and product category), and Total purchase_amount from last month.
 
-Now, they want to build a model to predict the purchase amount of customers against various products which will help them to create personalized offer for customers against different products
+Now, they want to build a model to predict the purchase amount of customers against various products which will help them to create personalized offers for customers against different products
 
 # Data Description:
 
@@ -12,7 +12,7 @@ train.csv contains the data to train the model on.
 test.csv contains the data to test the model that is trained on the train.csv and has missing values for the target variable.
 
 
-train.csv is used in this project to perform EDA, Feature Engineering and to create the model.
+train.csv is used in this project to perform EDA, Feature Engineering, and to create the model.
 The dataset has the following columns:
 
 - User_ID (5891 unique values): This is a unique identifier for each customer in the dataset. There are 5891 distinct customers.
@@ -29,6 +29,14 @@ The dataset has the following columns:
 - Purchase (18105 value): This column is our target variable indicating the purchase amount of each Black Friday purchase.
 
 # Data Preprocessing
+
+- The data is checked for missing values. We found out that there are 2 columns with missing values.
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/missing.png)
+- The missing values are imputed with the modes of the corresponding columns.
+- Product Categories are converted to int datatype from float datatype.
+- 'User_ID' and 'Product_ID' columns are removed as they are irrelevant for building our machine learning model.
+- 'Age' is ordinal encoded to numerical values from 1 to 7 in ascending order, maintaining the hierarchical relationship between age groups.
+- 'Stay_In_Current_City_Years' is converted to a int datatype feature by removing the '+' from '4+' leaving the column with values from 1 to 4.
 
 # Exploratory Data Analysis (EDA)
 
