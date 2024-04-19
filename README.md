@@ -44,7 +44,7 @@ The dataset has the following columns:
 ![Purchase Density Plot](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchasekde.png)
 ![City Category Distribution](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/city.png)
 ![Purchase Outliers](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoutliers.png)
-![Purchase Analysis 1](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseage.png)
+![Purchase Analysis 1](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-age.png)
 ![Purchase Analysis 2](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender.png)
 ![Purchase Analysis 3](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-age2.png)
 ![Purchase Analysis 4](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender2.png)
