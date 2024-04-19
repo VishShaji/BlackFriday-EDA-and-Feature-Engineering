@@ -43,28 +43,27 @@ The dataset has the following columns:
 The data is analyzed to understand the relationship between different features and the target variable (purchase amount).
 Visualizations are created to explore distributions, correlations, and patterns in the data.
 
-
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/gender.png)
+![Gender Distribution](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/gender.png)
 ![Purchase Density Plot](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchasekde.png)
 ![City Category Distribution](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/city.png)
 ![Purchase Outliers](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoutliers.png)
 
-Bivariate analysis is performed to examine relationships between features and the target variable.
+- Bivariate analysis is performed to examine relationships between features and the target variable.
+  
 ![Purchase Analysis 1](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-age.png)
 ![Purchase Analysis 2](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender.png)
 ![Purchase Analysis 3](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-age2.png)
 ![Purchase Analysis 4](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender2.png)
 ![Purchase Analysis 5](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoccupation.png)
 
-Correlation Analysis is done and the obtained correlation heatmap does not give us any clear insights other than the fact that the features are weakly correlated.
+- Correlation Analysis is done and the obtained correlation heatmap does not give us any clear insights other than the fact that the features are weakly correlated.
+  
 ![Correlation heatmap](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/corr.png)
 
 # Modeling Approach
 Several regression models are trained using the preprocessed data, including Decision Tree, Random Forest, Gradient Boosting, Support Vector Machine (SVM), and a Neural Network.
 It should be noted that we have used some algorithms like Linear Regression and Neural Networks that require data that is scaled. Hence we Standardize them using the StandardScaler from SkLearn Library.
 Tree-based ensemble algorithms typically do not require scaled data. Decision trees, which serve as the base learners in these algorithms, make splits based on feature values and are not affected by the scale of individual features. Therefore, scaling the data is generally unnecessary for tree-based ensemble methods.
-
-# Code Walkthrough
 
 # Model Evaluation
 
