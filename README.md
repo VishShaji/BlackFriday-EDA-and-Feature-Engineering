@@ -40,6 +40,16 @@ The dataset has the following columns:
 
 # Exploratory Data Analysis (EDA)
 
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/gender.png)
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchasekde.png)
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/city.png)
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoutliers.png)
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseage.png)
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender.png)
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-age2.png)
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender2.png)
+![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoccupation.png)
+
 # Modeling Approach
 
 # Code Walkthrough
