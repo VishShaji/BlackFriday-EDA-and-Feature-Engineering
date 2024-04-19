@@ -91,6 +91,8 @@ The model with the lowest RMSE is selected as the final model for predicting cus
 The XGBoost model performs the best among the tested models, with the lowest RMSE of  and an Error Proportion of RMSE to Range - XGBoost 13.450 %. The model can be optimized using GridSearchCV to obtain the best set of parameters for the highest RMSE on the test data. The optimized XGBoost model further improves performance, providing better predictions of customer purchase behavior.
 - Hence, XGBoost was selected as the final model due to its superior performance in predicting purchase amounts. The model can help the retail company predict customer purchase behavior and tailor personalized offers accordingly.
 
+[XGBoost Plot](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/xgboost.png)
+
 # Next Steps (Optional)
 
 - Fine-tuning hyperparameters of the XGBoost model to further improve performance.
