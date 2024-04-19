@@ -2,7 +2,7 @@
 
 A retail company “ABC Private Limited” wants to understand the customer purchase behavior (specifically, purchase amount) against various products of different categories. They have shared purchase summary of various customers for selected high-volume products from last month. The data set also contains customer demographics (age, gender, marital status, city_type, stay_in_current_city), product details (product_id and product category), and Total purchase_amount from last month.
 
-Now, they want to build a model to predict the purchase amount of customers against various products which will help them to create personalized offers for customers against different products
+The goal is to build a model to predict the purchase amount of customers against various products. This predictive model will help the company create personalized offers for customers across different products.
 
 # Data Description:
 
@@ -61,9 +61,24 @@ Visualizations are created to explore distributions, correlations, and patterns 
 ![Correlation heatmap](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/corr.png)
 
 # Modeling Approach
-Several regression models are trained using the preprocessed data, including Decision Tree, Random Forest, Gradient Boosting, Support Vector Machine (SVM), and a Neural Network.
+
+1. Model Selection: Trained several regression models including Linear Regression, Decision Tree Regression, Random Forest Regression, Gradient Boosting Regression, Support Vector Regression (SVR), Neural Network, AdaBoost, and XGBoost.
+2. Feature Scaling: Applied standard scaling to the numerical features.
+
 It should be noted that we have used some algorithms like Linear Regression and Neural Networks that require data that is scaled. Hence we Standardize them using the StandardScaler from SkLearn Library.
 Tree-based ensemble algorithms typically do not require scaled data. Decision trees, which serve as the base learners in these algorithms, make splits based on feature values and are not affected by the scale of individual features. Therefore, scaling the data is generally unnecessary for tree-based ensemble methods.
+
+# Code Walkthrough
+
+1. Loading the Data: Imported necessary libraries and loaded the dataset from Google Drive.
+2. Data Cleaning: Handled missing values and converted data types as required.
+3. Feature Engineering: Encoded categorical variables and performed ordinal encoding for ordinal features.
+4. Feature Processing: Applied one-hot encoding to categorical variables.
+5. Outlier Detection: Identified and removed outliers from the dataset.
+6. Correlation Analysis: Computed the correlation matrix to understand relationships between features.
+7. Bivariate Analysis: Visualized relationships between features and the target variable using various plots.
+8. Model Building: Trained multiple regression models including Linear Regression, Decision Tree Regression, Random Forest Regression, Gradient Boosting Regression, Support Vector Regression, Neural Network, AdaBoost, and XGBoost.
+9.Model Evaluation: Evaluated models based on RMSE and compared their performance.
 
 # Model Evaluation
 
@@ -73,11 +88,12 @@ The model with the lowest RMSE is selected as the final model for predicting cus
 
 # Results and Interpretation
 
-The XGBoost model performs the best among the tested models, with the lowest RMSE. The model can be optimized using GridSearchCV to obtain the best set of parameters for the highest RMSE on the test data.
-The optimized XGBoost model further improves performance, providing better predictions of customer purchase behavior.
+The XGBoost model performs the best among the tested models, with the lowest RMSE of  and an Error Proportion of RMSE to Range - XGBoost 13.450 %. The model can be optimized using GridSearchCV to obtain the best set of parameters for the highest RMSE on the test data. The optimized XGBoost model further improves performance, providing better predictions of customer purchase behavior.
+- Hence, XGBoost was selected as the final model due to its superior performance in predicting purchase amounts. The model can help the retail company predict customer purchase behavior and tailor personalized offers accordingly.
 
 # Next Steps (Optional)
 
+- Fine-tuning hyperparameters of the XGBoost model to further improve performance.
 - Deploy the trained model for making predictions on new data.
 - Monitor model performance over time and update as needed.
 - Explore additional features or data sources to enhance model accuracy and relevance.
