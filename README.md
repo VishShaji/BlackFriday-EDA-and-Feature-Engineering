@@ -41,14 +41,14 @@ The dataset has the following columns:
 # Exploratory Data Analysis (EDA)
 
 ![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/gender.png)
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchasekde.png)
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/city.png)
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoutliers.png)
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseage.png)
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender.png)
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-age2.png)
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender2.png)
-![Missing Count](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoccupation.png)
+![Purchase Density Plot](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchasekde.png)
+![City Category Distribution](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/city.png)
+![Purchase Outliers](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoutliers.png)
+![Purchase Analysis 1](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseage.png)
+![Purchase Analysis 2](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender.png)
+![Purchase Analysis 3](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-age2.png)
+![Purchase Analysis 4](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchase-gender2.png)
+![Purchase Analysis 5](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/purchaseoccupation.png)
 
 # Modeling Approach
 
