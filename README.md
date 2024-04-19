@@ -92,6 +92,7 @@ The XGBoost model performs the best among the tested models, with the lowest RMS
 - Hence, XGBoost was selected as the final model due to its superior performance in predicting purchase amounts. The model can help the retail company predict customer purchase behavior and tailor personalized offers accordingly.
 
 [XGBoost Plot](https://github.com/VishShaji/BlackFriday-EDA-and-Feature-Engineering/blob/main/Assets/xgboost.png)
+
 This plot displays the comparison between the actual purchase amounts (on the x-axis) and the predicted purchase amounts (on the y-axis) made by the XGBoost model. Each point on the scatter plot represents a data point from the test set. Ideally, all points should fall close to a diagonal line (y = x), indicating that the model's predictions match the actual values.
 
 # Next Steps (Optional)
