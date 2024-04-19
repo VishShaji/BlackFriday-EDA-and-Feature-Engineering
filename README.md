@@ -78,7 +78,7 @@ Tree-based ensemble algorithms typically do not require scaled data. Decision tr
 6. Correlation Analysis: Computed the correlation matrix to understand relationships between features.
 7. Bivariate Analysis: Visualized relationships between features and the target variable using various plots.
 8. Model Building: Trained multiple regression models including Linear Regression, Decision Tree Regression, Random Forest Regression, Gradient Boosting Regression, Support Vector Regression, Neural Network, AdaBoost, and XGBoost.
-9.Model Evaluation: Evaluated models based on RMSE and compared their performance.
+9. Model Evaluation: Evaluated models based on RMSE and compared their performance.
 
 # Model Evaluation
 
